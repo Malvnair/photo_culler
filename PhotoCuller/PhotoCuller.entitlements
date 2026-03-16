@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Disable sandbox for local Photos access (personal utility app) -->
+    <!-- If you want App Store distribution, enable sandbox and use com.apple.security.photos entitlement instead -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+
+    <!-- Network access for iCloud photo downloads -->
+    <key>com.apple.security.network.client</key>
+    <true/>
+</dict>
+</plist>

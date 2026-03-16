@@ -1,0 +1,26 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user-specific files
+xcuserdata/
+**/xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.moved-aside
+
+# Xcode build outputs
+DerivedData/
+.build/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift package manager
+.swiftpm/
+
+# Local environment files
+.env
+.env.*
